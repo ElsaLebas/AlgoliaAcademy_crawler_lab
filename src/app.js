@@ -39,9 +39,7 @@ search.addWidgets([
   instantsearch.widgets.pagination({
     container: '#pagination',
   }),
-]);
 
-search.addWidgets([
   instantsearch.widgets.clearRefinements({
     container: '#clear-refinements',
   }),
