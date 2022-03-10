@@ -1,8 +1,8 @@
 /* global algoliasearch instantsearch */
 
 const searchClient = algoliasearch(
-  'ZH6901PX1J',
-  'd850a12faaa943ad0653aeffa19ad564'
+  'ZH6901PX1J', // Your Application ID here
+  'd850a12faaa943ad0653aeffa19ad564' // Your Search-Only API Key here 
 );
 
 const search = instantsearch({
